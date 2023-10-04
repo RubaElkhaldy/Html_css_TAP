@@ -1,0 +1,390 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  :root {
+    --nav-color: #D1884F;
+    --h1-color:#008AAA;
+    --second-color:#3BBADB;
+    
+ 
+  
+  }
+
+body{
+margin: 40px;
+border:  var(--second-color) solid;
+  }
+
+#Header nav  ul{
+height: 50px;
+
+width: 100%;
+display:flex;
+justify-content: end;
+align-items: center;
+}
+
+#Header nav   ul li  a{
+   color: black;
+padding-right: 100px;
+
+  } 
+  span{
+    color: var(--nav-color);
+  }
+  section {
+    border: black;
+
+height: 600px;
+display: flex;
+
+justify-content: space-around;
+
+  } 
+   .img_profile img{
+   
+    width: 300px;
+    height: 300px;
+    border-bottom-left-radius:55%;
+    margin: 50% 0;
+    
+      }
+    
+  h5{
+    
+    color: var(--second-color);
+    margin: 140px 0 10px 0px;
+   
+  }
+  h1{
+   
+    color:var(--h1-color);
+}
+summary{
+    color: var(--second-color);
+    
+}
+.btn_project{
+    padding: 3px;
+    margin-top: 40px;
+    margin-left: 7px;
+  box-shadow: 2px 2px var(--h1-color);
+    border-color: var(--h1-color);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.btn_project a{
+    
+    
+    color: var(--h1-color);
+}
+.btn1{
+    padding: 3px;
+    background-color: var(--h1-color);
+    box-shadow: 2px 2px var(--h1-color);
+    border-color: var(--h1-color);
+    border-radius: 4px;
+   
+}
+.btn1 a{
+    color: rgb(252, 252, 252);
+}
+@media(max-width:1023px){
+
+  #Header nav   ul {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+      } 
+
+      #Header  ul  li img{
+      
+      width: 15px;}
+      
+      #Header  ul  li {
+    font-size: 17px;
+    padding-left: 10px;
+       }
+
+       h5{
+    font-size: 13px;
+       
+        margin: 70px 50px 10px 150px;
+       
+      }
+      h1{
+margin-left: 150px;
+        font-size: 20px;
+       
+       
+    }
+    summary{
+      font-size: 12px;
+      margin-left: 150px;
+        
+    }
+    .img_profile img{
+   
+      width: 150px;
+      height: 150px;
+     margin-right: 150px;
+      margin-top: 80px;
+        }
+        p{
+          font-size:14px;
+          margin-left: 150px;
+        }
+        button{
+          margin-left: 150px;
+        }
+}
+
+@media(max-width:706px){
+
+  #Header nav  ul{
+   
+    display:flex;
+  justify-content: end;
+  align-items: center;
+    }
+
+    #Header  ul  li img{
+      
+      width: 10px;}
+      
+      #Header  ul  li {
+    font-size: 10px;
+    
+       }
+      
+    
+      
+          h5{
+            font-size: 13px;
+               
+                margin: 70px 50px 10px 320px;
+               
+              }
+              h1{
+        margin-left: 320px;
+                font-size: 20px;
+               
+               
+            }
+            summary{
+              font-size: 12px;
+              margin-left: 320px;
+                
+            }  .img_profile img{
+   
+              width: 120px;
+              height: 120px;
+             margin-right: 320px;
+              margin-top: 80px;
+                }
+            
+                 pre p{
+                  font-weight: 600;
+                  font-size:12px;
+                  
+                  margin-top: 50px;
+                  margin-left: 320px;
+                  
+                }
+                button{
+                  padding: 20px;
+                  margin-left:320px;
+                }
+
+
+              }
+@media(max-width:540px){
+
+ 
+
+    #Header nav  ul{
+      height: 50px;
+      
+      width: 100%;
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      }
+      section{
+        display: flex;
+        flex-direction: column-reverse;
+       height: 600px;
+
+      }
+      .img_profile img{
+   
+        width: 130px;
+        height: 130px;
+        border-bottom-left-radius:55%;
+        margin:100px 0  0 50px;
+        
+          }
+          h5{
+            font-size: 13px;
+               
+                margin: 40px 50px 10px 30px;
+               
+              }
+              h1{
+        margin-left: 30px;
+                font-size: 20px;
+               
+               
+            }
+            summary{
+              font-size: 12px;
+              margin-left: 30px;
+                
+            }
+            p{
+              font-size:12px;
+           
+                margin-left: 30px;
+            }
+            pre p{
+      
+              font-size:12px;
+           margin-top: -50px;
+              margin-left: 25px;
+              
+            }
+            
+button{
+  margin-left: 30px;
+  margin-bottom:30px;
+              
+}
+}
+@media(max-width:410px){
+  #Header nav   ul {
+    display:flex;
+    flex-direction: column;
+    align-items:first baseline ;
+    justify-content: space-between;
+  
+    
+      } 
+
+      #Header  ul  li img{
+      
+      width: 15px;}
+      
+      #Header  ul  li {
+    font-size: 15px;
+   
+       }
+
+
+      
+       summary {
+        font-size: 10px;
+        
+          
+      }
+       p{    font-size:5px;
+        margin-left: 10px;
+           }
+      pre p{
+
+        font-size:10px;
+     margin-left: 10px;
+        
+        
+      }
+
+      
+button{
+  margin-bottom: 70px;
+margin-left: 30px;
+        
+}
+
+
+
+}
+
+@media(max-width:360px){
+
+
+  
+      #Header nav  ul{
+        height: 100px;
+      
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+       
+        }
+        
+        #Header nav   ul li  a{
+           color: black;
+        font-size: 10px;
+        
+          } 
+
+      section {
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    
+      } 
+      .img_profile img{
+   
+        width: 130px;
+        height: 130px;
+        border-bottom-left-radius:55%;
+        margin:20px 20px  0 30px;
+        
+          }
+          h5{
+            font-size: 13px;
+               
+                margin: 30px 20px 10px 30px;
+               
+              }
+              h1{
+        margin-left: 30px;
+                font-size: 15px;
+               
+               
+            }
+            summary{
+              font-size: 12px;
+              margin-left: 30px;
+                
+            }
+            p{
+              font-size:5px;
+           
+                margin-left: 30px;
+            }
+            pre p{
+         overflow: auto;
+         line-height: 18px;
+              font-size:10px;
+           margin-top: -50px;
+              margin-left: 2px;
+              
+            }
+            
+button{
+  margin-left: 3px;
+  margin-bottom: 1px;
+              
+}
+}
