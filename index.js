@@ -8,7 +8,7 @@
     }
 };
 
-console.log( twoSum([1,7,2,15],9))
+console.log( twoSum([2,7,11,15],9))
 
 
 
